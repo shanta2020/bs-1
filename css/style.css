@@ -1,0 +1,327 @@
+/*global css*/
+body{
+	background-color: #eaeeee;
+}
+h2{
+	font-size: 40px;
+	color: #2d3950;
+}
+h3{
+	font-size: 40px;
+	color: #fff;
+}
+h6{
+	font-weight: 300;
+	padding-top: 40px;
+	font-size: 17px;
+	color: #fff;
+}
+p{
+	font-size: 15px;
+	color: #acacac;
+}
+.btn{
+	margin-top: 0px;
+	padding: 10px 38px;
+	color: #fff;
+	border:1px solid #15a4fa;
+}
+/*theme css*/
+header{
+	padding: 20px; 
+}
+.hero{
+	padding: 20px;
+	background-image:url(../img/hero.png) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.hero-main h1{
+	padding-top: 200px;
+	font-size: 120px;
+	color: #fff;
+}
+.hero-main h6{
+	font-weight: 300;
+    padding-top: 40px;
+    padding-bottom: 57px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.hero-main span {
+	padding-top: 20px;
+	border-bottom: 2px solid #15a4fa;
+	display: block;
+	width: 100%;
+}
+.down{
+	 color: #fff;
+    padding-top: 160px;
+}
+.detail{
+	padding: 20px;text-align: center;
+}
+.detail-main{
+		padding: 60px 0 40px;
+}
+.icon-detail{
+	padding: 20px;
+    background: #fff;
+    text-align: center;
+}
+.icon-part{
+	background: linear-gradient(to right,#48baff 50%,#5fc3ff 50%);
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	display: block;
+	margin: 0 auto;
+	font-size: 49px;
+	color: #fff;
+	position: relative;
+	margin: 40px auto 10px;
+}
+.icon-detail h4{
+		font-size: 22px;
+		color: #2d3950;
+		padding-top: 25px;
+    	padding-bottom: 20px;
+}
+.picpart{
+	text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.picpart-detail{
+	padding-bottom: 10px;
+}
+.picpart-img{
+    margin-bottom: 20px;
+}
+.image-hover{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	
+}
+.image-hover-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+   
+    background: #189aeb75;
+    transition: .4s ease-in-out;
+    opacity: 0;
+}
+.image-hover:hover .image-hover-content{
+	opacity: 1;
+}
+.fa.fa-search-plus{
+	    border: 1px solid white;
+    position: absolute;
+    background: #189aeb3d;
+    padding: 15px 15px;
+    font-size: 18px;
+    color: #fff;
+    top: 38%;
+    left: 33%;
+}
+.fa.fa-link{
+    border: 1px solid white;
+    position: absolute;
+    background: #189aeb3d;
+    padding: 15px 15px;
+    font-size: 18px;
+    color: #fff;
+    top: 38%;
+    left: 52%;
+}
+.contact-part{
+	background-image: url(../img/road.png);
+	text-align: center;
+	padding: 80px 0;
+	position: relative;
+
+}
+.contact-part:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(45, 56, 76, 0.75);
+}
+.cstm-txt{
+	width: 100%;
+    padding: 4px 12px;
+    height: 100px;
+    border-radius: 6px;
+}
+.form-footer-left{
+	float: left;
+	color: #fff;
+}
+.form-footer-right{
+	float: right;
+}
+footer{
+	padding: 20px;
+}
+.left{
+	color: #999999;
+
+}
+.right{
+	color: #fff;
+}
+.icons {
+    width: 50%;
+    text-align: center;
+    float: right;
+}
+.right i{
+	padding: 16px 18px;
+	background-color: #15a4fa;	
+	margin: 0px 5px;
+}
+
+
+
+
+/*media query*/
+/*mobile device*/
+
+@media(min-width: 320px) and (max-width:500px){
+	h2{
+	font-size: 30px;
+	color: #2d3950;
+	}
+	.hero-main h1{
+		padding-top: 100px;
+		font-size: 50px;
+	}
+	.btn{
+		margin-top: 30px;
+	}
+	.down{
+		padding-top: 60px;
+	}
+	.picpart img{
+		width: 300px;
+	    margin-bottom: 20px;
+	}
+	.form-footer-left{
+		padding-top: 40px;
+		float: left;
+		color: #fff;
+	}
+	.left{
+	    text-align: center;
+	}
+	.icons {
+	    width: 100%;
+	    text-align: center;
+	    float: right;
+		}
+	.right i{
+		padding: 16px 18px;
+		background-color: #15a4fa;
+		margin: 0px 5px;
+	}
+	
+
+
+
+}
+
+/*small device*/
+@media(min-width: 500.1px) and (max-width: 768px){
+	.hero-main h1{
+		padding-top: 150px;
+		font-size: 65px;
+	}
+	.btn{
+		margin-top: 50px;
+	}
+	.down{
+		padding-top: 80px;
+	}
+	.icon-detail h4 {
+	    font-size: 30px;
+	    color: #2d3950;
+	    padding-top: 20px;
+	    padding-bottom: 15px;
+	}
+	.form-footer-left{
+	    padding-top: 55px;
+		float: left;
+		color: #fff;
+	}
+	.left{
+		text-align: center;
+	}
+	.icons {
+    	width: 100%;
+    	text-align: center;
+    	float: right;   
+    }
+    .right i{	
+		padding: 16px 18px;
+		background-color: #15a4fa;
+		margin: 0px 5px;
+	}
+	
+
+}
+/*medium device*/
+@media(min-width: 768.1px) and (max-width: 1200px){
+	.hero-main h1{
+		padding-top: 170px;
+		font-size: 90px;
+	}
+	.btn{
+		margin-top: 30px;
+	}
+	.down{
+		padding-top: 60px;
+	}
+	.picpart img{
+		 width: 215px;
+    	margin-bottom: 15px;
+	}
+	.form-footer-left{
+	    padding-top: 13px;
+		float: left;
+		color: #fff;
+	}
+	.btn{
+		margin-top: 4px;
+	}
+	.icons {
+	    width: 100%;
+	    text-align: center;
+	    float: right;
+	}
+	.right i{	
+		padding: 16px 18px;
+		background-color: #15a4fa;
+		margin: 0px 5px;
+	}
+}
+
+/*large device*/
+@media(min-width: 1200.1px){
+
+}
+
+
+
+
+
+
+
+
